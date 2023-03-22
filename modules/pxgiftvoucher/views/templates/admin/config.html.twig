@@ -1,0 +1,12 @@
+{% if message|length %}
+    <div class="alert alert-success">
+        <p>{{ message }}</p>
+
+    </div>
+{%  endif %}
+
+<p>
+    <button id="ajaxCall" class="btn btn-default">Click ME</button>
+</p>
+
+{{ form | raw}}
